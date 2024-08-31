@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+}
+
+.gap {
+  margin-top: 5px;
+}
+
+.font-style {
+  font-weight: 500;
+  font-size: 15px;
+}
+.container {
+  max-width: 850px;
+  height: 778px;
+  margin: 0 auto;
+  background-color: white;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name p {
+  text-align: center;
+}
+
+.social-links {
+  margin-top: 5px;
+}
+
+.social-links ul {
+  display: flex;
+  gap: 8px;
+  color: black;
+}
+
+.social-links ul li {
+  list-style: none;
+}
+
+.social-links ul li i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.social-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.education,
+.experience,
+.coursework,
+.projects,
+.technical {
+  display: block;
+  width: 94%;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.education-heading,
+.experience-heading,
+.skills-heading,
+.project-heading,
+.technical-heading {
+  border-bottom: 1px solid black;
+}
+
+.education-heading h2,
+.experience-heading h2,
+.skills-heading h2,
+.project-heading h2,
+.technical-heading h2 {
+  font-size: 20px;
+}
+
+.education-description,
+.experience-description,
+.project-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-description span,
+.education-details span,
+.experience-description span,
+.project-description span {
+  font-weight: 600;
+}
+
+.skills-details,
+.experience-details,
+.project-details {
+  margin-left: 22px;
+}
+
+.skills-details ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.technical-description ul li span {
+  font-weight: bold;
+}
+
+.technical-description ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.technical-description ul li {
+  list-style: none;
+}
